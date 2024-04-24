@@ -1,0 +1,74 @@
+
+.github{
+    margin:150px;
+    margin: 20px;
+    background-color: rgba(155, 161, 153, 0.781);
+    
+}
+
+.container{
+    display:grid;
+    grid-template-columns:auto auto;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom:10px;
+    
+}
+@media (min-width: 1400px) { 
+    .container{
+        display:grid;
+        grid-template-columns:auto auto;
+        padding-left: 20px;
+        padding-top:20px;
+        padding-bottom:10px;
+        margin-right:0px;
+        
+    }
+ }
+.col-1{
+    width:250px;
+    height:500px;
+    border-radius:10px;
+    margin-right:50px;
+    background-color:rgb(53, 51, 51) ;
+}
+@media (min-width: 576px) {
+    .col-1{
+        width:250px;
+        height:500px;
+        border-radius:10px;
+        margin-right:50px;
+    }
+}
+.col-2{
+    border-radius: 25px;
+    
+}
+.p-2{
+    border-radius:10px;
+    margin-right:50px;
+    margin-top:70px;
+    margin-bottom:40px;
+    width:1200px;
+    height:110px;
+    background-color: rgb(53, 51, 51);
+
+}
+.row-3{
+    width:580px;
+    height:170px;
+    border-radius:10px; 
+    margin-top:40px;
+    background-color: rgb(53, 51, 51);
+}
+.row-1 input{
+    background-color:rgb(53, 51, 51);
+    border: none;
+    color:white;
+    margin-left:80px;
+    padding-left:10px;
+    padding-bottom:5px;
+    width:400px;
+    border-radius: 5px;
+}
+
